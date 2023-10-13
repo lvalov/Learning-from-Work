@@ -4,10 +4,19 @@ class Program
 {
     static void Main()
     {
-        double number = double.Parse(Console.ReadLine());
-        double power = double.Parse(Console.ReadLine());
+        int size = int.Parse(Console.ReadLine());
 
-        double result = Math.Pow(number, power);
-        Console.WriteLine(result);
+        for (int row = 1; row <= size; row++)
+        {
+            //Console.WriteLine("*");
+            for (int col = 1; col <= row; col++)
+            { 
+                Console.Write("*");
+            }
+            Console.WriteLine();
+        }
+        
+
     }
 }
+ 

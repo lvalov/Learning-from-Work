@@ -31,9 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopsExerciseTask1", "Loops
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopsExerciseTask2", "LoopsExerciseTask2\LoopsExerciseTask2.csproj", "{1E862493-AE49-4F0E-937D-0797DA5A4A00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopExerciseTask3", "LoopExerciseTask3\LoopExerciseTask3.csproj", "{E91EB9E0-601E-4FED-ACFF-68B8550C090D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopExerciseTask3", "LoopExerciseTask3\LoopExerciseTask3.csproj", "{E91EB9E0-601E-4FED-ACFF-68B8550C090D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopExercisesTask4", "LoopExercisesTask4\LoopExercisesTask4.csproj", "{8F3A6E56-B230-44E9-9857-CA44D289BF57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopExercisesTask4", "LoopExercisesTask4\LoopExercisesTask4.csproj", "{8F3A6E56-B230-44E9-9857-CA44D289BF57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedLoopsTask1", "NestedLoopsTask1\NestedLoopsTask1.csproj", "{4F484645-20AE-4AFC-B129-6036FE6C61F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{8F3A6E56-B230-44E9-9857-CA44D289BF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F3A6E56-B230-44E9-9857-CA44D289BF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F3A6E56-B230-44E9-9857-CA44D289BF57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F484645-20AE-4AFC-B129-6036FE6C61F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F484645-20AE-4AFC-B129-6036FE6C61F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F484645-20AE-4AFC-B129-6036FE6C61F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F484645-20AE-4AFC-B129-6036FE6C61F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
