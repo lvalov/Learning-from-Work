@@ -41,9 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopsExerciseTask3", "Loops
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopsExerciseTask4", "LoopsExerciseTask4\LoopsExerciseTask4.csproj", "{C58AA117-927D-4EA6-A33C-E26B0444D99E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestedLoopsTask4", "..\NestedLoopsTask4\NestedLoopsTask4.csproj", "{9B81D37D-BEE6-4BBA-AED5-3FB0454952C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestedLoopsTask5", "NestedLoopsTask5\NestedLoopsTask5.csproj", "{53614E97-8FAA-4229-A64D-FB94333AEAC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedLoopsTask5", "NestedLoopsTask5\NestedLoopsTask5.csproj", "{53614E97-8FAA-4229-A64D-FB94333AEAC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestedLoopsTask4", "NestedLoopsTask4\NestedLoopsTask4.csproj", "{5AABB985-54B7-4EDB-B1C9-FE4F0D8C5433}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,14 +127,14 @@ Global
 		{C58AA117-927D-4EA6-A33C-E26B0444D99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C58AA117-927D-4EA6-A33C-E26B0444D99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C58AA117-927D-4EA6-A33C-E26B0444D99E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9B81D37D-BEE6-4BBA-AED5-3FB0454952C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B81D37D-BEE6-4BBA-AED5-3FB0454952C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B81D37D-BEE6-4BBA-AED5-3FB0454952C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B81D37D-BEE6-4BBA-AED5-3FB0454952C1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{53614E97-8FAA-4229-A64D-FB94333AEAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{53614E97-8FAA-4229-A64D-FB94333AEAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53614E97-8FAA-4229-A64D-FB94333AEAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53614E97-8FAA-4229-A64D-FB94333AEAC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AABB985-54B7-4EDB-B1C9-FE4F0D8C5433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AABB985-54B7-4EDB-B1C9-FE4F0D8C5433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AABB985-54B7-4EDB-B1C9-FE4F0D8C5433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AABB985-54B7-4EDB-B1C9-FE4F0D8C5433}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
