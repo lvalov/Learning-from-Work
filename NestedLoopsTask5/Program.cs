@@ -4,31 +4,38 @@
     {
         static void Main(string[] args)
         {
-            int floors = int.Parse(Console.ReadLine());
-            int estates = int.Parse(Console.ReadLine());
-
-            for (int i = floors;  i >= 1; i--) 
-            {
-
-                for (int j = 1; j <= estates; j++)
-                {
-                    if (i % 2 == 0 && i != floors)
-                    {
-                        Console.Write($"O{(i * 10 - 1) + j} ");
-                    }
-                    if (i % 2 == 1 && i != floors)
-                    {
-                        Console.Write($"A{(i * 10 - 1) + j} ");
-                    }
-                    if (i == floors)
-                    {
-                        Console.Write($"L{(i * 10 - 1) + j} ");
-                    }
-                }
-                Console.WriteLine();
-            }
+            string destination = Console.ReadLine();
+            string budget = Console.ReadLine();
             
 
+            string command = "";
+            double budget2 = double.Parse(budget);
+
+            while (true)
+            {
+                double balance = 0.0;
+                while (true)
+                {
+                    
+                    command = Console.ReadLine();
+                    double money = double.Parse(command);
+                    balance += money;
+                    Console.WriteLine($"Collected: {balance:f2}");
+
+                    if (balance >= budget2)
+                    {
+                        Console.WriteLine($"Going to {destination}!");
+                        break;
+                    }
+                }
+                destination = Console.ReadLine();
+                if (destination == "End")
+                {
+                    break;
+                }
+                budget = (Console.ReadLine());
+                budget2 = double.Parse(budget);
+            }
         }
     }
 }
