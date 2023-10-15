@@ -1,22 +1,29 @@
-﻿using System;
+﻿using System.Data;
+using System.Data.Common;
+using System.Xml;
 
-class Program
+namespace NestedLoopsTask6
 {
-    static void Main()
+    internal class Program
     {
-        int size = int.Parse(Console.ReadLine());
-
-        for (int row = 1; row <= size; row++)
+        static void PrintNumberSign(int number)
         {
-            //Console.WriteLine("*");
-            for (int col = 1; col <= row; col++)
-            { 
-                Console.Write("*");
+            if (number == 0)
+            {
+                Console.WriteLine($"The number {number} is zero.");
             }
-            Console.WriteLine();
+            else if (number > 0)
+            {
+                Console.WriteLine($"The number {number} is positive.");
+            }
+            else
+            {
+                Console.WriteLine($"The number {number} is negative.");
+            }
         }
         
-
     }
+    int number = int.Parse(Console.ReadLine());
+    PrintNumberSign(number);
+
 }
- 

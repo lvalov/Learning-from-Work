@@ -7,22 +7,27 @@ namespace NestedLoopsTask6
     {
         static void Main(string[] args)
         {
-           int number = int.Parse(Console.ReadLine());
+            int number = int.Parse(Console.ReadLine());
 
-            int rows = 1;
-            int columns = 1;
-            while (rows <= number)
+            int row = 1;
+            int column = 1;
+
+
+            while (column <= number)
+
             {
-                
-                while (columns >= rows)
+                int numberOfDigits = 0;
+                while (numberOfDigits != row)
                 {
-                    columns++;
-                    Console.Write(rows);
-                    
+                    Console.Write(column + " ");
+                    column++;
+                    numberOfDigits++;
+                    if (column > number)
+                    {
+                        break;
+                    }
                 }
-                rows++;
-
-
+                row++;
                 Console.WriteLine();
             }
         }
