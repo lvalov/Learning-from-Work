@@ -61,9 +61,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestedLoops&MethodsTask8", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestedLoops&MethodsTask9", "NestedLoops&MethodsTask9\NestedLoops&MethodsTask9.csproj", "{D1F31B7B-E24B-45EC-8BDF-3C3E02029584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysTesting", "ArraysTesting\ArraysTesting.csproj", "{BCC88CDA-E461-4E7C-96D9-B6F4C62FDE8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraysTesting", "ArraysTesting\ArraysTesting.csproj", "{BCC88CDA-E461-4E7C-96D9-B6F4C62FDE8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListTesting", "ListTesting\ListTesting.csproj", "{73E03180-B18D-40CF-BD98-2EA03117C64C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListTesting", "ListTesting\ListTesting.csproj", "{73E03180-B18D-40CF-BD98-2EA03117C64C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists&ArraysExerciseTask7", "Lists&ArraysExerciseTask7\Lists&ArraysExerciseTask7.csproj", "{22E6CE81-7AC8-4569-84E8-D7AE33853051}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +197,10 @@ Global
 		{73E03180-B18D-40CF-BD98-2EA03117C64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73E03180-B18D-40CF-BD98-2EA03117C64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73E03180-B18D-40CF-BD98-2EA03117C64C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E6CE81-7AC8-4569-84E8-D7AE33853051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E6CE81-7AC8-4569-84E8-D7AE33853051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E6CE81-7AC8-4569-84E8-D7AE33853051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E6CE81-7AC8-4569-84E8-D7AE33853051}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
