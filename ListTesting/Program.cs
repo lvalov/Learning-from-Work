@@ -1,14 +1,37 @@
-﻿List<int> numbers = new List<int>();
+﻿List<int> firstNumbers = Console.ReadLine().Split(" ").Select(int.Parse).ToList();
+List<int> secondNumbers = Console.ReadLine().Split(" ").Select(int.Parse).ToList();
 
-numbers.Add(3);
-numbers.Add(4);
-numbers.Add(5);
-numbers.Add(6);
-numbers.Add(7);
-numbers.Add(8);    
-numbers.Add(9);
-numbers.Add(10);
+List<int> output = new List<int>();
 
-Console.WriteLine(numbers.Count);
 
-numbers.RemoveAll(number => number < 0);
+
+if (firstNumbers.Count > secondNumbers.Count)
+{
+    for (int index = 0; index <= firstNumbers.Count - 1; index++)
+    {
+        output.Add(firstNumbers[index]);
+
+        for (int i = index; i <= secondNumbers.Count - 1; i++)
+        {
+            output.Add(secondNumbers[i]);
+            break;
+        }
+    }
+}
+else
+{
+    int index = 0;
+    while (index <= secondNumbers.Count - 1)
+    {
+        while (index <= firstNumbers.Count - 1)
+        {
+            output.Add(firstNumbers[index]);
+            output.Add(secondNumbers[index]);
+            index++;
+            
+        }
+        output.Add(secondNumbers[index]);
+        index++;
+    }
+}
+Console.WriteLine(string.Join(" ", output));
