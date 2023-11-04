@@ -1,21 +1,15 @@
-﻿using System.ComponentModel.Design;
+﻿  int result = CalculateFactorial(4);
+  Console.WriteLine(result);
 
-namespace Task6
+static int CalculateFactorial(int number)
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            int number = int.Parse(Console.ReadLine());
-            //int currNumber = 0;
-            for (int newNumber; newNumber % 2 == 0; newNumber++)
-            {
+    int result = 1;
 
-                int newNumber = int.Parse(Console.ReadLine());
-                number = newNumber;
-            }
-            Console.WriteLine(number);
-        }
-        
+while (number > 0)
+    {
+        result = result * number;
+        number--;
     }
+return result;
+
 }
