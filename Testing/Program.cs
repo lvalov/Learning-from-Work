@@ -1,33 +1,20 @@
-﻿using System.Data;
-using System.Data.Common;
-using System.Globalization;
-using System.Xml;
-
-namespace NestedLoopsTask6
+﻿static int FindTheSumOfDigits(int number)
 {
-    internal class Program
+
+    
+
+
+    int sumOfDigits = 0;
+
+    while (number > 0)
     {
-        static void Main(string[] args)
-        {
-            int n = int.Parse(Console.ReadLine());
-
-            for (int digit1 = 1; digit1 <= 9; digit1++)
-            {
-                for (int digit2 = 0; digit2 <= 9; digit2++)
-                {
-                    for (int digit3 = 0; digit3 <= 9; digit3++)
-                    {
-                        if (digit1 * digit2 * digit3 == n)
-                        {
-                            Console.Write($"{digit1}{digit2}{digit3} ");
-                        }
-                    }
-                }
-            }
-        }
+        int result = number % 10;
+        sumOfDigits += result;
+        number = number / 10;
     }
+    return sumOfDigits;
 }
-for ()
-{
+Console.WriteLine(FindTheSumOfDigits(15));
 
-}
+
+
