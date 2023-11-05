@@ -73,7 +73,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamTask1", "ExamTask1\Exam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamTask2", "ExamTask2\ExamTask2.csproj", "{C3B97844-AC61-47F9-83D4-BF7F3187401D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamTask3", "ExamTask3\ExamTask3.csproj", "{2D5516A6-AE60-4113-979B-F6213622C654}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamTask3", "ExamTask3\ExamTask3.csproj", "{2D5516A6-AE60-4113-979B-F6213622C654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamTime", "ExamTime\ExamTime.csproj", "{2C10E40C-8159-4154-8D29-EE1E374568EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamTimeTheRotations", "ExamTimeTheRotations\ExamTimeTheRotations.csproj", "{42F7A1A2-4008-46B5-B7DB-5E3285CD7DEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestoviZadachi", "TestoviZadachi\TestoviZadachi.csproj", "{87B0AA1F-0861-4660-81FF-FCCA63C10E20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +231,18 @@ Global
 		{2D5516A6-AE60-4113-979B-F6213622C654}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D5516A6-AE60-4113-979B-F6213622C654}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D5516A6-AE60-4113-979B-F6213622C654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C10E40C-8159-4154-8D29-EE1E374568EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C10E40C-8159-4154-8D29-EE1E374568EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C10E40C-8159-4154-8D29-EE1E374568EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C10E40C-8159-4154-8D29-EE1E374568EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F7A1A2-4008-46B5-B7DB-5E3285CD7DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F7A1A2-4008-46B5-B7DB-5E3285CD7DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F7A1A2-4008-46B5-B7DB-5E3285CD7DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F7A1A2-4008-46B5-B7DB-5E3285CD7DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B0AA1F-0861-4660-81FF-FCCA63C10E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B0AA1F-0861-4660-81FF-FCCA63C10E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B0AA1F-0861-4660-81FF-FCCA63C10E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B0AA1F-0861-4660-81FF-FCCA63C10E20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
